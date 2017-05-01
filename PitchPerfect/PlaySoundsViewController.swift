@@ -57,6 +57,7 @@ class PlaySoundsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupAudio()
+        //Adding the scaleAspectFit to avoid squishing.
         snailButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
         chipmunkButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
         rabbitButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
