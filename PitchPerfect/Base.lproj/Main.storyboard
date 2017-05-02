@@ -156,10 +156,6 @@
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceR-2I-2iY">
                                                                         <rect key="frame" x="0.0" y="0.0" width="440" height="59"/>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="width" constant="64" id="gmq-1K-2vs"/>
-                                                                            <constraint firstAttribute="height" constant="64" id="zd9-Cu-OdW"/>
-                                                                        </constraints>
                                                                         <state key="normal" image="Stop"/>
                                                                         <connections>
                                                                             <action selector="stopButtonPressed:" destination="DUV-Av-l3l" eventType="touchUpInside" id="Q5s-Or-JUw"/>
@@ -178,10 +174,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="1QA-FB-kGV" firstAttribute="top" secondItem="Jgc-YQ-Uo9" secondAttribute="bottom" constant="20" id="GHA-r5-WmH"/>
-                            <constraint firstItem="Jgc-YQ-Uo9" firstAttribute="leading" secondItem="0by-Kw-oQt" secondAttribute="leadingMargin" id="fXh-9X-oU0"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Jgc-YQ-Uo9" secondAttribute="trailing" id="w6U-G9-v1M"/>
-                            <constraint firstItem="Jgc-YQ-Uo9" firstAttribute="top" secondItem="kFx-tX-G0h" secondAttribute="bottom" id="wYT-Q0-9Cj"/>
+                            <constraint firstAttribute="bottom" secondItem="Jgc-YQ-Uo9" secondAttribute="bottom" constant="20" symbolic="YES" id="6gE-aV-4If"/>
+                            <constraint firstItem="Jgc-YQ-Uo9" firstAttribute="top" secondItem="kFx-tX-G0h" secondAttribute="bottom" id="cMr-Z4-uB9"/>
+                            <constraint firstItem="Jgc-YQ-Uo9" firstAttribute="trailing" secondItem="0by-Kw-oQt" secondAttribute="trailingMargin" id="fFV-R2-QGu"/>
+                            <constraint firstItem="Jgc-YQ-Uo9" firstAttribute="leading" secondItem="0by-Kw-oQt" secondAttribute="leadingMargin" id="wqd-nX-b1c"/>
                         </constraints>
                     </view>
                     <connections>
